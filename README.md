@@ -7,16 +7,32 @@ A package of of Minecraft plugins to meet any server’s needs.
 
 ## EtherealCore - Just the essentials
 ### Commands
-- [x] /spawn 
-- [x] /setspawn {world} 
-- [ ] /home 
-- [ ] /sethome
-- [ ] /delhome
+- [x] /spawn {world}
+- [x] /setspawn {world}
+- [ ] /home {home-name}
+- [ ] /sethome {home-name}
+- [ ] /delhome {home-name}
 - [ ] /rtp {player} 
-- [ ] /help 
+- [ ] /help {command}
 - [ ] /give {player}
 - [ ] /kill {player} 
 - [ ] /feed {player} 
 - [ ] /heal {player}
+- [ ] /weather {sun|rain}
+- [ ] /time {day|night|ticks}
+- [ ] /enderchest {player}
+- [ ] /kick {player|all} {reason}
+- [ ] /unban {ip} {player}
+- [ ] /ban {ip} {player} {temp} {reason}
+- [ ] /unmute {player|all}
+- [ ] /mute {player|all}
+- [ ] /fly {player}
+- [ ] /god {player}
+- [ ] /back {player}
+- [ ] /top {player}
+- [ ] /warp {warp-name}
+- [ ] /setwarp {warp-name} {world}
+- [ ] /delwarp {warp-name} {world}
+
 
 </details>
