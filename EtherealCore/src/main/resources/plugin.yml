@@ -1,0 +1,20 @@
+name: EtherealCore
+version: '${project.version}'
+main: me.etherealcraft.etherealcore.EtherealCore
+api-version: '1.19'
+commands:
+  setspawn:
+    description: Set the spawn point.
+    usage: /setspawn {world}
+    permission: etherealcore.commands.setspawn
+    permission-message: You don't have permission ' etherealcore.commands.setspawn '
+  spawn:
+    description: Teleport a player to the spawn point.
+    usage: /spawn
+    permission: etherealcore.commands.spawn
+    permission-message: You don't have permission ' etherealcore.commands.spawn '
+permissions:
+  etherealcore.commands.setspawn:
+    default: op
+  etherealcore.commands.spawn:
+    default: true

@@ -1,0 +1,6 @@
+etherealcore.commands:
+  description: Basic permissions for My Cool Server.
+  default: false
+  children:
+    spawn: true
+    setspawn: false
