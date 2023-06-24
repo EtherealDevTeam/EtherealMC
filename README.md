@@ -9,8 +9,8 @@ A package of of Minecraft plugins to meet any server’s needs.
 ### Commands
 - [x] /spawn {world}
 - [x] /setspawn {world}
-- [ ] /home {home-name}
-- [ ] /sethome {home-name}
+- [x] /home {home-name}
+- [x] /sethome {home-name}
 - [ ] /delhome {home-name}
 - [ ] /rtp {player} 
 - [ ] /help {command}
