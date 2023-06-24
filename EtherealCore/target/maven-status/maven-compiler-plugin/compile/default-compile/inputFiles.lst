@@ -1,5 +1,9 @@
 D:\EtherealCraft\development\plugins\EtherealCore\src\main\java\me\etherealcraft\etherealcore\EtherealCore.java
 D:\EtherealCraft\development\plugins\EtherealCore\src\main\java\me\etherealcraft\etherealcore\files\SpawnsConfig.java
 D:\EtherealCraft\development\plugins\EtherealCore\src\main\java\me\etherealcraft\etherealcore\commands\SpawnCommand.java
+D:\EtherealCraft\development\plugins\EtherealCore\src\main\java\me\etherealcraft\etherealcore\listeners\PlayerDataListeners.java
+D:\EtherealCraft\development\plugins\EtherealCore\src\main\java\me\etherealcraft\etherealcore\files\HomesConfig.java
+D:\EtherealCraft\development\plugins\EtherealCore\src\main\java\me\etherealcraft\etherealcore\commands\SetHomeCommand.java
 D:\EtherealCraft\development\plugins\EtherealCore\src\main\java\me\etherealcraft\etherealcore\listeners\SpawnListeners.java
 D:\EtherealCraft\development\plugins\EtherealCore\src\main\java\me\etherealcraft\etherealcore\commands\SetSpawnCommand.java
+D:\EtherealCraft\development\plugins\EtherealCore\src\main\java\me\etherealcraft\etherealcore\files\PlayerDataConfig.java

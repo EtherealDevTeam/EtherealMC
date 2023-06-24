@@ -26,7 +26,7 @@ public class SetSpawnCommand implements CommandExecutor {
                 Location location = player.getLocation();
                 if(args.length == 0) {
                     //set the spawn location in the config.yml
-                    etherealCore.getConfig().set(String.valueOf(location.getWorld().getName()), location);
+                    etherealCore.getConfig().set(String.valueOf("Spawns." + location.getWorld().getName()), location);
 
                     //save the config.yml
                     etherealCore.saveConfig();
@@ -36,7 +36,7 @@ public class SetSpawnCommand implements CommandExecutor {
                 }else{
                     String world = args[0];
 
-                    etherealCore.getConfig().set(world, location);
+                    etherealCore.getConfig().set("Spawns." + world, location);
                     etherealCore.saveConfig();
                 }
             }else{

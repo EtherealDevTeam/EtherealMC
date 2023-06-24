@@ -13,8 +13,20 @@ commands:
     usage: /spawn
     permission: etherealcore.commands.spawn
     permission-message: You don't have permission ' etherealcore.commands.spawn '
+  sethome:
+    description: Set's a home for the player
+    usage: /sethome [homename]
+    permission: etherealcore.commands.sethome
+    permission-message: You don't have permission 'etherealcore.commands.sethome '
+  home:
+    description: Teleports a player to a home.
+    usage: /home [homename]
+    permission: etherealcore.commands.home
+    permission-message: You don't have permission 'etherealcore.commands.home '
 permissions:
   etherealcore.commands.setspawn:
     default: op
   etherealcore.commands.spawn:
+    default: true
+  etherealcore.commands.sethome:
     default: true

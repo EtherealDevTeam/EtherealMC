@@ -1,8 +1,10 @@
 me\etherealcraft\etherealcore\commands\SpawnCommand.class
 me\etherealcraft\etherealcore\commands\SetSpawnCommand.class
-me\etherealcraft\etherealcore\files\HomesConfig.class
 me\etherealcraft\etherealcore\commands\HomeCommand.class
-me\etherealcraft\etherealcore\files\SpawnsConfig.class
 me\etherealcraft\etherealcore\EtherealCore.class
+me\etherealcraft\etherealcore\files\HomesConfig.class
+me\etherealcraft\etherealcore\files\SpawnsConfig.class
+me\etherealcraft\etherealcore\files\PlayerDataConfig.class
+me\etherealcraft\etherealcore\listeners\PlayerDataListeners.class
 me\etherealcraft\etherealcore\listeners\SpawnListeners.class
 me\etherealcraft\etherealcore\commands\SetHomeCommand.class

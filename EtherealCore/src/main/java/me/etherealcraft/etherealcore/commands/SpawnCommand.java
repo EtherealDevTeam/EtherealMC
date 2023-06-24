@@ -24,7 +24,7 @@ public class SpawnCommand implements CommandExecutor {
             Player player = (Player) sender;
             if(player.hasPermission("etherealcore.commands.spawn")) {
                 //see if the plugin has a spawn point set in the config
-                Location location = plugin.getConfig().getLocation(String.valueOf(player.getLocation().getWorld().getName()));
+                Location location = plugin.getConfig().getLocation("Spawns." + String.valueOf(player.getLocation().getWorld().getName()));
                 if (location != null) {
 
                     if(args.length == 0) {
@@ -35,7 +35,7 @@ public class SpawnCommand implements CommandExecutor {
                         player.sendMessage("You have been teleported to the spawn point.");
                     }else{
                         String world = args[0];
-                        player.teleport(plugin.getConfig().getLocation(String.valueOf(world)));
+                        player.teleport(plugin.getConfig().getLocation("Spawns." + String.valueOf(world)));
                         player.sendMessage("You have been teleported to " + String.valueOf(world) + "'s spawn point.");
                     }
                 }else {
